@@ -1,5 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif
+}
+
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 10%;
+}
+
+
+.icons{
+    color: white;
+}
+
+
+
+.nav-container{
+    width: 100%;   
+    padding: 10px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: #ff6900;
+    z-index: 1;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+div.links a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.icons a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+
+
+.card-image{
+    position: relative;
+}
+
+.tag{
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: white;
+}
+
+.sales-tag{
+    left: 0px;
+    background-color: red;
+}
+
+.sustainability-tag{
+    left: 60px;
+    bottom: 30px;
+    background-color: green;
+}
+
+.only-sust-tag{
+    left: 0px;
+    bottom: 30px;
+    background-color: green;
+}
+
+.heart{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    font-size: 20px;
+    padding:20px;
+    background-color: white;
+}
+
+.heart:hover{
+    color:red;
+}
+
+.main-flex{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width:32%;
+    margin-bottom: 50px;
+}
+
+.second-image{
+    display: none;
+}
+
+.card-image:hover .first-image{
+    display: none;
+}
+
+.card-image:hover .second-image{
+    display: inline;
+}
+.footer-flex{
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+footer{
+    background-color: #222;
+}
+
+div.left-column a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+div.right-column i{
+    font-size: 20px;
+    padding:0 10px 0 0;
 }
