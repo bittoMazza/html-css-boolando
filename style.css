@@ -19,7 +19,7 @@ img{
 }
 
 .logo{
-    width: 10%;
+    width: 150px;
 }
 
 
@@ -27,11 +27,15 @@ img{
     color: white;
 }
 
-
+div.icons a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
 
 .nav-container{
     width: 100%;   
-    padding: 10px;
+    padding: 10px 0;
     position:fixed;
     top: 0;
     left: 0;
@@ -46,7 +50,6 @@ img{
 }
 
 
-
 div.links a{
     text-decoration: none;
     color: white;
@@ -55,17 +58,26 @@ div.links a{
     font-weight: bold;
 }
 
-div.icons a{
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-}
 
+/*  STILE MAIN  */
 
 
 .card-image{
     position: relative;
 }
+
+.card{
+    width:32%;
+    margin-bottom: 50px;
+}
+
+.main-flex{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 
 .tag{
     position: absolute;
@@ -74,6 +86,15 @@ div.icons a{
     font-weight: bold;
     padding: 5px 10px;
     color: white;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.previous-price{
+    text-decoration-line: line-through;
 }
 
 .sales-tag{
@@ -106,18 +127,6 @@ div.icons a{
     color:red;
 }
 
-.main-flex{
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.card{
-    width:32%;
-    margin-bottom: 50px;
-}
-
 .second-image{
     display: none;
 }
@@ -129,6 +138,13 @@ div.icons a{
 .card-image:hover .second-image{
     display: inline;
 }
+
+
+
+/* STILE FOOTER */
+
+
+
 .footer-flex{
     color: white;
     padding: 20px 0;
